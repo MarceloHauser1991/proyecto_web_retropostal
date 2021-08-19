@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* NAVBAR */
+
+nav{
+    background-color: #F2F2F2;
+}
+
+/* HERO */
+
+
+.hero-image{
+    position: relative;
+    height: 85vh;
+    overflow: hidden;
+    background: url(../img/retro-style-digital-art-1980s-wallpaper-preview.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content h1{
+    font-weight: 700;
+
+    font-size: 60px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+/* PRODUCTOS DESTACADOS */
+
+
+.titulo_producto h2{
+    text-align: center;
+    margin: 2em;
+    font-size: 3em;
+}
+
+/* SOBRE NOSOTROS */
+
+.nosotros{
+    background-image: url(../img/retro-style-digital-art-1980s-wallpaper-preview.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 8em;
+    margin-top: 6em;
+    
+}
+
+.texto p{
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+/* CONTACTO */
+
+.contacto p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align: center;
+    color: black;
+}
+
+/* BOTÓN SUBIR */
+
+.ir-arriba{
+    display: inline-block;
+    padding: 20px;
+    background-color: #024959;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
